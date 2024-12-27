@@ -5,8 +5,15 @@
 ### 使用
 直接覆盖到carla目录下，然后运行脚本进行测试：
 ```python
+# 车辆
 python manual_control.py --filter vehicle.BYD.seal
+# 行人
+python manual_control.py --filter walker.pedestrian.0051
 ```
+
+### 说明
+
+该仓库的资产兼容Carla的`ue4-dev`分支的最新代码。
 
 ### 参考
 
