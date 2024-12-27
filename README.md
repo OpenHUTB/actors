@@ -1,10 +1,10 @@
 ## 自定义资产
 
-该项目包含可以嵌入 Carla 项目中的自定义资产，比如：车辆、行人等。
+该项目包含可以嵌入 Carla 项目中的自定义资产，比如：车辆、行人等，为项目做出贡献前请查看 [贡献指南](https://github.com/OpenHUTB/.github/blob/master/CONTRIBUTING.md) 。
 
 ### 使用
-直接覆盖到carla目录下，然后运行脚本进行测试：
-```python
+直接覆盖到carla源代码编译版的目录下，然后运行脚本进行测试：
+```shell
 # 车辆
 python manual_control.py --filter vehicle.BYD.seal
 # 行人
