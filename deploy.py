@@ -11,6 +11,7 @@ import glob
 
 
 # 通过校验MD5 判断B内的文件与A 不同
+# 参考：https://www.cnblogs.com/xiaodekaixin/p/11203857.html
 def get_MD5(file_path):
     with open(file_path, 'rb') as fp:
         data = fp.read()
